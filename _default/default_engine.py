@@ -1,7 +1,7 @@
 import asyncio
 try:  # Попытка импортировать реальные функции из модуля
   from commons.common import debug, use_config, main_auth
-  print("✅ Успешный импорт функций из 'telethon_cli.commons.common'")
+  print("✅ Успешный импорт функций из 'commons'")
 except ImportError as e:
   # Если импорт не удался, создаем функции-заглушки
   print(f" ‼️ Ошибка импорта: {e}. Создаем функции-заглушки.")
